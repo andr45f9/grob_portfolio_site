@@ -22,7 +22,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "League Gothic", sans-serif;
   letter-spacing: 1.6px;
   text-transform: uppercase;
@@ -44,6 +45,11 @@ h2 {
 
 h3 {
   font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1rem;
+  color: rgb(70, 68, 68);
 }
 /* ------------------------------------- */
 
@@ -72,12 +78,23 @@ h1 {
   margin-bottom: 3rem;
 }
 
+.k_video {
+  margin: 0 2rem 3rem 2rem;
+}
+
 /* ------------------------------------- */
 
 /* third section */
 
 .third_section {
   margin-bottom: 3rem;
+}
+
+.s_video1 {
+  margin: 0 2rem 3rem 2rem;
+}
+.s_video2 {
+  margin: 0 2rem 3rem 2rem;
 }
 
 /* ------------------------------------- */
@@ -113,12 +130,24 @@ h1 {
 
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     margin-left: 3rem;
     margin-bottom: 2rem;
   }
 
   .img_container {
+    margin: 0 3rem 4rem 3rem;
+  }
+
+  .k_video {
+    margin: 0 3rem 4rem 3rem;
+  }
+  .s_video1 {
+    margin: 0 3rem 4rem 3rem;
+  }
+
+  .s_video2 {
     margin: 0 3rem 4rem 3rem;
   }
 }
@@ -136,12 +165,24 @@ h1 {
 
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     margin-left: 10rem;
   }
 
   .img_container {
     gap: 30px;
+    margin: 0 10rem 8rem 10rem;
+  }
+
+  .k_video {
+    margin: 0 10rem 8rem 10rem;
+  }
+  .s_video1 {
+    margin: 0 10rem 4rem 10rem;
+  }
+
+  .s_video2 {
     margin: 0 10rem 8rem 10rem;
   }
 }
